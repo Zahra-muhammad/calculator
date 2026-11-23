@@ -180,7 +180,7 @@ export function clientReport(ws: Workspace, ev: Evaluation): Uint8Array {
     doc.setFontSize(8);
     doc.setTextColor(100);
     const h = doc.internal.pageSize.getHeight();
-    doc.text("Prepared with the firm's CT calculator. Subject to professional review.", M, h - 24);
+    doc.text("Prepared with Finapt Calculator. Subject to professional review.", M, h - 24);
     doc.text(`Page ${i} of ${pages}`, W - M, h - 24, { align: 'right' });
     doc.setTextColor(0);
   }

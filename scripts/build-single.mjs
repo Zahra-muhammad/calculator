@@ -1,4 +1,4 @@
-// Builds ONE self-contained HTML file (all CSS and JS inlined) at single/uae-ct-calculator.html.
+// Builds ONE self-contained HTML file (all CSS and JS inlined) at single/finapt-calculator.html.
 // The team can open it offline by double-clicking, or email it. Run: npm run build:single
 import react from '@vitejs/plugin-react';
 import { mkdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
@@ -9,7 +9,7 @@ import { build } from 'vite';
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const tmp = join(root, '.single-tmp');
 const outDir = join(root, 'single');
-const outFile = join(outDir, 'uae-ct-calculator.html');
+const outFile = join(outDir, 'finapt-calculator.html');
 
 rmSync(tmp, { recursive: true, force: true });
 await build({

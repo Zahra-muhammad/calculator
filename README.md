@@ -1,4 +1,4 @@
-# UAE Corporate Tax Calculator
+# Finapt Calculator
 
 Works out UAE Corporate Tax from a client's financial statements and trial balance in seconds. Every number shows where it came from, every add-back shows its rule, and anything that needs a person's judgement is asked as a question and flagged.
 
@@ -40,7 +40,7 @@ You need **Node.js LTS** (version 20 or newer) and, for editing, **VS Code**.
 | `npm test` | Runs all tests (should all pass) |
 | `npm run typecheck` | Checks the TypeScript |
 | `npm run build` | Builds the app into `dist/` |
-| `npm run build:single` | Builds **one HTML file**, `single/uae-ct-calculator.html`, with everything inside. Double-click it to use the app offline, or email it. The Inter font is bundled inside (from `@fontsource-variable/inter`, Latin only), so nothing is loaded from the internet. |
+| `npm run build:single` | Builds **one HTML file**, `single/finapt-calculator.html`, with everything inside. Double-click it to use the app offline, or email it. The Inter font is bundled inside (from `@fontsource-variable/inter`, Latin only), so nothing is loaded from the internet. |
 | `npm run sample` | Rebuilds the demo files in `samples/` |
 | `npm run check:single` | Opens the single file in Edge or Chrome, uploads the samples and checks: tax shown, no console errors, no sideways scroll at 400px, exports download |
 
@@ -137,7 +137,7 @@ The app asks; it does not decide. A person should always:
 - Check the settings against tax.gov.ae and mof.gov.ae before each filing season.
 - Review the open points in `QUESTIONS.md`.
 
-The PDF footer says it: *Prepared with the firm's CT calculator. Subject to professional review.*
+The PDF footer says it: *Prepared with Finapt Calculator. Subject to professional review.*
 
 ## 7. Project layout
 

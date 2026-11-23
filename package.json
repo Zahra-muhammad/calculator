@@ -1,9 +1,9 @@
 {
-  "name": "uae-ct-calculator",
+  "name": "finapt-calculator",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "UAE Corporate Tax calculator for tax staff. Runs entirely in the browser.",
+  "description": "Finapt Calculator: UAE Corporate Tax for tax staff. Runs entirely in the browser.",
   "scripts": {
     "dev": "vite",
     "build": "tsc -p tsconfig.json --noEmit && vite build",

@@ -27,7 +27,7 @@ export function Header(props: {
           CT
         </span>
         <div style={{ minWidth: 0 }}>
-          <h1>UAE CT Calculator</h1>
+          <h1>Finapt Calculator</h1>
           <p className="brand-sub">{sub}</p>
         </div>
       </div>

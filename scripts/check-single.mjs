@@ -1,4 +1,4 @@
-// Acceptance check: opens single/uae-ct-calculator.html in a real browser (Edge or Chrome
+// Acceptance check: opens single/finapt-calculator.html in a real browser (Edge or Chrome
 // already installed on the machine), uploads the sample files, and checks:
 //  - the tax figure appears and matches the expected value
 //  - there are no console errors
@@ -11,7 +11,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { chromium } from 'playwright-core';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
-const page1 = join(root, 'single', 'uae-ct-calculator.html');
+const page1 = join(root, 'single', 'finapt-calculator.html');
 const samples = join(root, 'samples');
 const shots = process.env.SHOTS_DIR || join(root, 'test-results');
 // Nothing answered: "Professional fees" (no invoice) is flagged, not added back. Answering "No evidence" adds it back.

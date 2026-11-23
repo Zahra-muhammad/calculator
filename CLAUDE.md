@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-UAE Corporate Tax calculator for a Dubai accounting and tax firm. React 18 + TypeScript (strict) + Vite, plain CSS, SheetJS, jsPDF, Vitest.
+Finapt Calculator: a UAE Corporate Tax calculator for a Dubai accounting and tax firm. React 18 + TypeScript (strict) + Vite, plain CSS, SheetJS, jsPDF, Vitest.
 
 ## Non-negotiable rules
 
@@ -38,7 +38,7 @@ src/
   download.ts          saves files (claude.ai downloads capability, or a normal download)
   App.tsx, main.tsx, styles.css
 tests/                 one test file per engine module (spec tests 1–17 with exact numbers)
-scripts/build-single.mjs   one self-contained HTML → single/uae-ct-calculator.html
+scripts/build-single.mjs   one self-contained HTML → single/finapt-calculator.html
 scripts/check-single.mjs   Playwright acceptance check (uses installed Edge/Chrome)
 scripts/make-sample.mjs    demo files in samples/
 README.md, QUESTIONS.md, CLAUDE.md
