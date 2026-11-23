@@ -1,0 +1,4 @@
+Name,Type,Relationship,Connected to
+Ahmed Ali,Person,Director and owner,
+Mariam Ali,Person,Wife of owner,Ahmed Ali
+Al Noor Holdings LLC,Company,Shareholder,Ahmed Ali

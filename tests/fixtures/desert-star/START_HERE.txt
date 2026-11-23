@@ -1,0 +1,10 @@
+UAE CORPORATE TAX & VAT CUSTOMER TEST PACK – FY2025
+Fictional training client: Desert Star Office Supplies LLC
+
+Upload all four source files to your calculator:
+- Desert_Star_Company_Records_FY2025.xlsx
+- Independent_Auditors_Report.pdf
+- Director_Confirmation.pdf
+- VAT_Reconciliation_Note.pdf
+
+Complete the customer profile from the documents. No answer key is included. Use this only for software testing; it is synthetic data, not a real taxpayer or filing.
